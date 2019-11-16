@@ -26,7 +26,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    //测试
+    //测试666666
     @RequestMapping("queryTest")
     @ResponseBody
     public  String queryTest(String[] args){
