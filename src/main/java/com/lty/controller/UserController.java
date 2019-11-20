@@ -57,6 +57,8 @@ public class UserController {
         return  "完了";
     }
 
+
+
     public static String readJsonData(String pactFile) throws IOException {
         // 读取文件数据
         //System.out.println("读取文件数据util");
@@ -123,6 +125,7 @@ public class UserController {
                     area1.setCityId(cid);
                     //新增区
                     userService.saveArea(area1);
+
                 }
 
             }
