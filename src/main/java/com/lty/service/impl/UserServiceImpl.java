@@ -16,18 +16,4 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
 
-    @Override
-    public void saveProvince(Province province) {
-       userMapper.saveProvince(province);
-    }
-
-    @Override
-    public void saveCity(City city) {
-         userMapper.saveCity(city);
-    }
-
-    @Override
-    public void saveArea(Area area1) {
-        userMapper.saveArea(area1);
-    }
 }
