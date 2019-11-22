@@ -40,8 +40,8 @@ public class UserController {
             e.printStackTrace();
         }
         //3dddfgfdgdf
-        System.out.println(fgf);
-        System.out.println(ddd);
+        System.out.println(111);
+        System.out.println(222);
         return  "111";
     }
 
