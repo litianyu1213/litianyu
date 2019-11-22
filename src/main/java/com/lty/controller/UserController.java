@@ -26,24 +26,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    //测试666666多大点事
-    //5555555大大大
-    //55555ddddddasd
-    //f大大大fff
-    //ggg
-    //dddddd
-    //hhhhhhh
-    //sdf
-    //rwerwe
-    //2345
-    //erc
-    //2ddd
-    //jjdjjdjd
 
-    //ddddss
-    //112222
-    //jdddxxxx
-    //jddddddfff
     @RequestMapping("queryTest")
     @ResponseBody
     public  String queryTest(String[] args){
