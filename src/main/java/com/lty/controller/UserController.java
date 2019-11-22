@@ -39,9 +39,9 @@ public class UserController {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
-        //3ddd
-        System.out.println(json);
-        System.out.println(111);
+        //3dddfgfdgdf
+        System.out.println(fgf);
+        System.out.println(ddd);
         return  "111";
     }
 
